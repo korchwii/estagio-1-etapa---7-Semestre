@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanduicheria Selvagem</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background-color: #ff6347;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ff4500;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+
+        .menu-section {
+            margin: 20px 0;
+        }
+
+        .menu-section h2 {
+            background-color: #ff6347;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .menu-item {
+            background-color: white;
+            margin: 10px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .menu-item h3 {
+            margin: 0;
+            color: #ff6347;
+        }
+
+        .menu-item p {
+            margin: 5px 0;
+        }
+
+        .menu-item button {
+            background-color: #ff6347;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .menu-item button:hover {
+            background-color: #ff4500;
+        }
+
+        footer {
+            background-color: #ff6347;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sanduicheria Selvagem</h1>
+    </header>
+    <nav>
+        <a href="#lanches">Lanches</a>
+        <a href="#aperitivos">Aperitivos</a>
+        <a href="#sucos">Sucos</a>
+        <a href="#sobremesas">Sobremesas</a>
+    </nav>
+    <div class="container">
+        <section id="lanches" class="menu-section">
+            <h2>Lanches</h2>
+            <div class="menu-item">
+                <h3>Selvagem Burger</h3>
+                <p>Pão brioche, hambúrguer de 200g, queijo cheddar, bacon crocante, alface e tomate.</p>
+                <button>Pedir Agora</button>
+            </div>
+            <div class="menu-item">
+                <h3>Veggie Delight</h3>
+                <p>Pão integral, hambúrguer de grão de bico, queijo vegano, alface, tomate e molho especial.</p>
+                <button>Pedir Agora</button>
+            </div>
+            <div class="menu-item">
+                <h3>Frango Grill</h3>
+                <p>Pão ciabatta, filé de frango grelhado, queijo suíço, alface e maionese de ervas.</p>
+                <button>Pedir Agora</button>
+            </div>
+        </section>
+
+        <section id="aperitivos" class="menu-section">
+            <h2>Aperitivos</h2>
+            <div class="menu-item">
+                <h3>Batata Selvagem</h3>
+                <p>Batata frita temperada com ervas finas e parmesão.</p>
+                <button>Pedir Agora</button>
+            </div>
+            <div class="menu-item">
+                <h3>Anéis de Cebola</h3>
+                <p>Cebolas empanadas, crocantes por fora e macias por dentro.</p>
+                <button>Pedir Agora</button>
+            </div>
+            <div class="menu-item">
+                <h3>Nachos</h3>
+                <p>Nachos crocantes com cheddar derretido e jalapeños.</p>
+                <button>Pedir Agora</button>
+            </div>
+        </section>
+
+        <section id="sucos" class="menu-section">
+            <h2>Sucos</h2>
+            <div class="menu-item">
+                <h3>Suco de Laranja</h3>
+                <p>Suco de laranja natural, fresco e gelado.</p>
+                <button>Pedir Agora</button>
+            </div>
+            <div class="menu-item">
+                <h3>Suco Detox</h3>
+                <p>Suco verde com couve, limão, gengibre e maçã.</p>
+                <button>Pedir Agora</button>
+            </div>
+            <div class="menu-item">
+                <h3>Suco de Morango</h3>
+                <p>Suco de morango natural, doce e refrescante.</p>
+                <button>Pedir Agora</button>
+            </div>
+        </section>
+
+        <section id="sobremesas" class="menu-section">
+            <h2>Sobremesas</h2>
+            <div class="menu-item">
+                <h3>Brownie Selvagem</h3>
+                <p>Brownie de chocolate com nozes, servido com sorvete.</p>
+                <button>Pedir Agora</button>
+            </div>
+            <div class="menu-item">
+                <h3>Cheesecake de Frutas Vermelhas</h3>
+                <p>Cheesecake cremoso com calda de frutas vermelhas.</p>
+                <button>Pedir Agora</button>
+            </div>
+            <div class="menu-item">
+                <h3>Mousse de Maracujá</h3>
+                <p>Mousse de maracujá com cobertura de chantilly.</p>
+                <button>Pedir Agora</button>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Sanduicheria Selvagem. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
